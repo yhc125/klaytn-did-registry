@@ -70,6 +70,3 @@ async function registerDID() {
 }
 
 registerDID();
-
-
-registerDID();
