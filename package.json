@@ -1,0 +1,13 @@
+{
+  "name": "klaytn-did-registry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yhc125/klaytn-did-registry.git",
+  "author": "yhc125 <yhc125r@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "caver-js": "^1.10.2",
+    "dotenv": "^16.0.3",
+    "truffle-hdwallet-provider-klaytn": "^1.4.2"
+  }
+}

@@ -1,0 +1,41 @@
+Arguments: 
+  /opt/homebrew/Cellar/node@16/16.19.1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /opt/homebrew/opt/node@16/bin:/Users/chayeonghun/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/chayeonghun/.cargo/bin:/Users/chayeonghun/.npm-global/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/chayeonghun/did-project/klaytn-did-registry/package.json: Unexpected token } in JSON at position 259
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "klaytn-did-registry",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/yhc125/klaytn-did-registry.git",
+    "author": "yhc125 <yhc125r@naver.com>",
+    "license": "MIT",
+    "dependencies": {
+      "caver-js": "^1.10.2",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
